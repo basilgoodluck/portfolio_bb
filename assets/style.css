@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@800&family=Micro+5&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #eee;
+}
+.headPlusHome{
+    background: linear-gradient(#036bfc, #03fcad);
+    color: #080d14;
+}
+.headPlusHome .headSection{
+    padding: 2.5%;
+}
+.headPlusHome .homeSection .homeContent{
+    height: 60vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.headPlusHome .homeSection .homeContent .homeContentTXT h1 span{
+    font-style: 8rem;
+    font-weight: 800;
+    font-family: "Baloo Paaji 2", sans-serif;
+}
+.headPlusHome .homeSection .homeContent .homeContentTXT h4 span{
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: 400;
+}
+.headPlusHome .homeSection .homeContent .homeContentTXT p{
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 200;
+    font-family: cursive;
+}
