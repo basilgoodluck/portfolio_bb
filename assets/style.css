@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@800&family=Micro+5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&family=Micro+5&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
     padding: 0;
@@ -7,14 +7,15 @@
 
 body{
     overflow-x: hidden;
-    background-color: #eee;
+    font-family: roboto;
 }
 .headPlusHome{
-    background: linear-gradient(#036bfc, #03fcad);
+    background: linear-gradient(#0d3875,#3498DB);
     color: #080d14;
 }
 .headPlusHome .headSection{
-    padding: 2.5%;
+    padding: 5% 2.5%;
+    /* background-color: #3498DB ; */
 }
 .headPlusHome .homeSection .homeContent{
     height: 60vh;
@@ -38,4 +39,74 @@ body{
     font-size: 1.2rem;
     font-weight: 200;
     font-family: cursive;
+}
+.aboutSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 2.5%;
+    background-color: #edf1f5;
+}
+.aboutSection .aboutContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    width: 80%;
+    margin: 0 auto;
+}
+.aboutSection .aboutContent .aboutTXTBox{
+    display: grid;
+    gap: 20px;
+}
+.aboutSection .aboutContent .aboutTXTBox h1{
+    font-style: 8rem;
+    font-weight: 800;
+    font-family: "Baloo Paaji 2", sans-serif;
+}
+.aboutSection .aboutContent .aboutTXTBox p{
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+.aboutSection .aboutContent .aboutTXTBox p a{
+    background-color: #FF6F61;
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 7px;
+}
+.serviceSection{
+    padding: 2.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serviceSection .serviceContent{
+    width: 80%;
+    margin: 0 auto;
+}
+.serviceSection .serviceContent h1{
+    text-align: center;
+    font-style: 8rem;
+    font-weight: 800;
+    font-family: "Baloo Paaji 2", sans-serif;
+}
+.serviceSection .serviceContent .serviceBox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.serviceContent .serviceBox .serviceBoxTXT{
+    padding: 10%;
+    display: grid;
+    gap: 10px;
+    text-align: center;
+    border: 1px solid #080d14;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #edf1f5;
+}
+.serviceContent .serviceBox .serviceBoxTXT i{
+    font-size: 3rem;
+}
+.serviceContent .serviceBox .serviceBoxTXT h4{
+    font-size: 1.3rem;
 }
