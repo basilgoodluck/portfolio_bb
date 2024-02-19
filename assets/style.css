@@ -110,3 +110,65 @@ body{
 .serviceContent .serviceBox .serviceBoxTXT h4{
     font-size: 1.3rem;
 }
+.serviceContent .serviceBox .serviceBoxTXT p span{
+    font-size: 1.2rem;
+    transform: translateY(100%);
+    /* display: none; */
+    /* transition: .5s ease; */
+    /* opacity: 0; */
+}
+.portSection{
+    padding: 5% 2.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portSection .portContent{
+    width: 80%;
+    margin: 0 auto;
+}
+.portSection .portContent h1{
+    text-align: center;
+    font-style: 8rem;
+    font-weight: 800;
+    font-family: "Baloo Paaji 2", sans-serif;
+}
+.portSection .portContent .portBox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.portContent .portBox .portBoxTXT img{
+    width: 100%;
+}
+.testiSection .testiContent h1{
+    text-align: center;
+    font-style: 8rem;
+    font-weight: 800;
+    font-family: "Baloo Paaji 2", sans-serif;
+}
+.testiSection .testiContent .testiBox{
+    width: 60%;
+    margin: 0 auto;
+    /* border: 1px solid #080d14; */
+    background-color: #FF6F61;
+    padding: 2.5%;
+    text-align: center;
+    color: #fff;
+    display: grid;
+    gap: 20px;
+}
+.testiSection .testiContent .testiBox .profileImg{
+    width: 50px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px;
+}
+.testiSection .testiContent .testiBox img{
+    width: 100%;
+}
+.testiSection .testiContent .testiBox p{
+    width: 80%;
+    margin: 0 auto;
+}
