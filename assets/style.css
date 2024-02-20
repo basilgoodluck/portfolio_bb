@@ -10,6 +10,7 @@
 body{
     overflow-x: hidden;
     font-family: roboto;
+    scroll-behavior: smooth;
 }
 .headPlusHome{
     background: linear-gradient(#0d3875,#3498DB);
@@ -196,6 +197,10 @@ body{
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
 }
+.contactSection .contactContent .contactTheme img{
+    width: 100%;
+    object-fit: cover;
+}
 .contactSection .contactContent form{
     display: grid;
     gap: 10px;
@@ -215,4 +220,23 @@ body{
     height: 100px;
     border: 1px solid white;
     color: white;
+}
+.contactSection .contactSocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactSection .contactSocial .socialIcons{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.contactSection .contactSocial .socialIcons p .fa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 20px;
 }
