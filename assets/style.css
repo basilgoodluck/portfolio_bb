@@ -13,12 +13,51 @@ body{
     scroll-behavior: smooth;
 }
 .headPlusHome{
-    background: linear-gradient(#0d3875,#3498DB);
+    /* background: linear-gradient(#0d3875,#3498DB); */
     color: #080d14;
 }
 .headPlusHome .headSection{
-    padding: 5% 2.5%;
-    /* background-color: #3498DB ; */
+    padding: 0% 2.5%;
+    top: 0;
+    position: sticky;
+    z-index: 333;
+    background-color: #f76;
+}
+.headPlusHome .headSection .headContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headPlusHome .headSection .headContent .navMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.headPlusHome .headSection .headContent  .navMenu ul{
+    list-style-type: none;
+}
+.headPlusHome .headSection .headContent  .navMenu ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+.headPlusHome .headSection .headContent  .navMenu ul li a{
+    color: #0d3875;
+
+    text-decoration: none;
+
+}
+.headPlusHome .headSection .headContent  .navMenu .callBtn a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #0d3875;
+}
+.headPlusHome .headSection .headContent h1{
+    width: 100px;
+}
+.headPlusHome .headSection .headContent img{
+    width: 100%;
 }
 .headPlusHome .homeSection .homeContent{
     height: 60vh;
