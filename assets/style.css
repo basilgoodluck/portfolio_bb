@@ -17,11 +17,12 @@ body{
     color: #080d14;
 }
 .headPlusHome .headSection{
+    background-color: #fff;
     padding: 0% 2.5%;
     top: 0;
     position: sticky;
     z-index: 333;
-    background-color: #f76;
+    box-shadow: 0 0 10px #eee;
 }
 .headPlusHome .headSection .headContent {
     display: flex;
@@ -43,7 +44,6 @@ body{
 }
 .headPlusHome .headSection .headContent  .navMenu ul li a{
     color: #0d3875;
-
     text-decoration: none;
 
 }
@@ -52,6 +52,7 @@ body{
     text-decoration: none;
     padding: 15px 30px;
     background-color: #0d3875;
+    border-radius: 5px;
 }
 .headPlusHome .headSection .headContent h1{
     width: 100px;
@@ -64,30 +65,79 @@ body{
     display: grid;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
-
+.headPlusHome .homeSection .homeContent .homeContentTXT {
+    display: grid;
+    gap: 10px;
+    color: #0d3875;
+}
 .headPlusHome .homeSection .homeContent .homeContentTXT h1 span{
     font-style: 8rem;
     font-weight: 800;
     font-family: "Baloo Paaji 2", sans-serif;
 }
 .headPlusHome .homeSection .homeContent .homeContentTXT h4 span{
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-family: cursive;
     font-weight: 400;
 }
 .headPlusHome .homeSection .homeContent .homeContentTXT p{
-    color: #000;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 200;
     font-family: cursive;
+}
+.headPlusHome .homeSection .homeContent .homeContentTXT p a{
+    background-color: #FF6F61;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 15px 30px;
+    display: inline-block;
+}
+.storySection .storyContent{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.storySection .storyContent .storyContentBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #0d3875;
+    padding: 5%;
+    border-radius: 10px;
+    color: white;
+}
+.storyContent .storyContentBox .storyContentBoxTXT{
+    display: grid;
+    gap: 10px;
+}
+.storyContent .storyContentBox .storyContentBoxTXT p i{
+    display: block;
+    font-size: 3rem;
+}
+.storyContent .storyContentBox .storyContentBoxTXT p span{
+    width: 50%;
+    display: block;
+}
+.storyContent .storyContentBox .storyContentBoxIMG{
+    width: 40%;
+}
+.storyContent .storyContentBox .storyContentBoxIMG img{
+    width: 200px;
+    /* border-radius: 50%; */
+    display: block;
 }
 .aboutSection{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5% 2.5%;
-    background-color: #edf1f5;
+    background-color: #eee;
 }
 .aboutSection .aboutContent{
     display: flex;
