@@ -111,3 +111,25 @@ p a:focus{
     background-color: rgba(255, 255, 255, 0.7);
     color: #282C4B;
 }
+.serviceContent .container .col .themeContent{
+    display: grid;
+
+    /* justify-content: center; */
+    align-items: center;
+}
+.testiSection {
+    /* background-color: ; */
+}
+.testiSection .themeContent{
+    background-image: url('/assets/img/Group\ 9142.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.testiSection .reviewBOX{
+    display: grid;
+    gap: 10px;
+}
+.testiSection .reviewBOX img{
+    width: 50px;
+}
