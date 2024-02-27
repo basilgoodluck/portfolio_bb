@@ -10,7 +10,7 @@
 body{
     font-family: roboto;
 }
-p a{
+p a, input[type="submit"]{
     background-color: #FF6489;
     color: #fff;
     border: 1px solid #FF6489;
@@ -117,19 +117,53 @@ p a:focus{
     /* justify-content: center; */
     align-items: center;
 }
-.testiSection {
-    /* background-color: ; */
-}
-.testiSection .themeContent{
-    background-image: url('/assets/img/Group\ 9142.png');
+.testiSection{
+    background-image: url('/assets/img/Group\ 9142\ \(1\).png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+.testiSection .carousel{
+    box-shadow: 5px 10px 50px #FF6489;
+    background-color: #FF6489;
+    max-width: 50%;
+    margin: 0 auto;
+    color: #fff;
+}
 .testiSection .reviewBOX{
-    display: grid;
+    /* background-color: #282C4B; */
+    /* display: flex; */
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     gap: 10px;
 }
 .testiSection .reviewBOX img{
     width: 50px;
+}
+.contaSection form{
+    display: grid;
+    gap: 10px;
+    
+}
+.contaSection form input[type="text"]{
+    background-color: #FFF8F8;
+    padding: 2%;
+    color: #000;
+    box-shadow: 0 10px 30px #eee;
+}
+.contaSection form textarea{
+    background-color: #FFF8F8;
+    resize: none;
+    padding: 2%;
+    overflow-y: hidden;
+    min-height: 40px;
+    box-shadow: 0 10px 30px #eee;
+}
+.contaSection form input[type="submit"]{
+    width: 30%;
+    box-shadow: 0 10px 30px #eee;
 }
