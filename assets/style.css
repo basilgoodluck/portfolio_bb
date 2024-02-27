@@ -167,3 +167,26 @@ p a:focus{
     width: 30%;
     box-shadow: 0 10px 30px #eee;
 }
+
+.blogContent .container .d-flex{
+    justify-content: space-between;
+}
+.blogContent .container .d-flex .themeBlog{
+    display: grid;
+    /* gap: 10px; */
+    width: 40%;
+}
+.blogContent .blogPosts{
+    flex-basis: 50%;
+}
+.blogContent .postBOX a {
+    display: block;
+    padding: 5%;
+}
+.blogContent .postBOX img{
+    width: 100%;
+}
+.footerSection{
+    background-color: #282C4B;
+    color: #fff;
+}
