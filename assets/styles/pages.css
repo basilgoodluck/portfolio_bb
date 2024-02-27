@@ -37,3 +37,34 @@ p a:focus{
 .helpSection{
     color: #282C4B;
 }
+
+
+
+/* Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles  */
+
+.storyThemeSection{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/assets/img/port.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;  
+}
+.storyThemeSection .storyThemeTXT{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    height: 50vh;
+}
+.storyBOXSection{
+    color: #282C4B;
+}
+.storyBOXSection .storyBOXContentTXT{
+    display: grid;
+    gap: 10px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
