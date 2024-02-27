@@ -190,3 +190,11 @@ p a:focus{
     background-color: #282C4B;
     color: #fff;
 }
+.footerSection .container{
+    justify-content: space-between;
+}
+.footerSection p a{
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+}
