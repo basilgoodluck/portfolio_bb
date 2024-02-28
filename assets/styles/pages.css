@@ -22,6 +22,8 @@ p a, input[type="submit"]{
 p a:focus{
     color: #000;
 }
+
+/* Service styles Service styles Service styles Service styles Service styles Service styles Service styles Service styles Service styles Service styles Service styles Service styles Service styles Service styles Service styles */
 .serviceHome{
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("/assets/img/port.jpg");
     background-size: cover;
@@ -39,6 +41,26 @@ p a:focus{
 }
 
 
+/* Resources styles Resources styles Resources styles Resources styles Resources styles Resources styles Resources styles Resources styles Resources styles Resources styles Resources styles Resources styles Resources styles Resources styles Resources styles */
+
+.recentSection .recentBoxTXT{
+    display: grid;
+    gap: 10px;
+}
+.recentSection .recentBoxIMG img{
+    width: 100%;
+}
+.recentBoxTXT .shareBTN{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 30%;
+}
+.allBlogSection {
+    background-color: #282C4B;
+}
+.allBlogSection .allBlogBOX{
+    padding: 10px;
+}
 
 /* Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles  */
 
@@ -50,12 +72,7 @@ p a:focus{
     color: #fff;  
 }
 .storyThemeSection .storyThemeTXT{
-    display: grid;
-    justify-content: center;
-    align-items: center;
     width: 50%;
-    margin: 0 auto;
-    text-align: center;
     height: 50vh;
 }
 .storyBOXSection{
