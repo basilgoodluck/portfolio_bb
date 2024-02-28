@@ -57,9 +57,33 @@ p a:focus{
 }
 .allBlogSection {
     background-color: #282C4B;
+    color: #fff;
 }
-.allBlogSection .allBlogBOX{
-    padding: 10px;
+.allBlogSection .allBlogBOX img{
+    width: 100%;
+}
+.contaSection form{
+    display: grid;
+    gap: 10px;
+    
+}
+.contaSection form input[type="text"]{
+    background-color: #FFF8F8;
+    padding: 2%;
+    color: #000;
+    box-shadow: 0 10px 30px #eee;
+}
+.contaSection form textarea{
+    background-color: #FFF8F8;
+    resize: none;
+    padding: 2%;
+    overflow-y: hidden;
+    min-height: 40px;
+    box-shadow: 0 10px 30px #eee;
+}
+.contaSection form input[type="submit"]{
+    width: 30%;
+    box-shadow: 0 10px 30px #eee;
 }
 
 /* Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles Story styles  */
