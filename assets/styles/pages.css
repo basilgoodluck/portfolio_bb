@@ -25,16 +25,40 @@ p a:focus{
 
 /* Service styles Service styles Service styles Service styles Service styles Service styles Service styles Service styles Service styles Service styles Service styles Service styles Service styles Service styles Service styles */
 .serviceHome{
+    height: 90vh;
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("/assets/img/port.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .serviceHome .serviceHomeTXT{
     display: grid;
     gap: 10px;
     width: 50%;
+}
+.serviceHome .serviceHomeTXT1 h1{
+    font-size: 2rem;
+    color: #ff6489;
+}
+.serviceHome .serviceHomeTXT2 h1{
+    border-bottom: 1px solid #ff6489;
+    font-size: 4rem;
+    color: #ff6489;
+}
+.serviceHome .serviceHomeTXT2 h1 span{
+    font-size: 1rem;
+    color: #ccc;
+    
+}
+.serviceHome .serviceHomeTXT p{
+    color: #ccc;
+}
+.serviceHome .serviceHomeTXT p span{
+    /* color: #FF6489; */
 }
 .helpSection{
     color: #282C4B;
